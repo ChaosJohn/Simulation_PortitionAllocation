@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BlockList	PortitionAllocation.c	/^} BlockNode, *BlockList, *BlockPointer; $/;"	t	typeref:struct:_Block	file:
+BlockNode	PortitionAllocation.c	/^} BlockNode, *BlockList, *BlockPointer; $/;"	t	typeref:struct:_Block	file:
+BlockPointer	PortitionAllocation.c	/^} BlockNode, *BlockList, *BlockPointer; $/;"	t	typeref:struct:_Block	file:
+CAPACITY	PortitionAllocation.c	6;"	d	file:
+_Block	PortitionAllocation.c	/^typedef struct _Block {$/;"	s	file:
+addAllocation	PortitionAllocation.c	/^addAllocation(BlockPointer pointer) {$/;"	f
+allocatedBlockSize	PortitionAllocation.c	/^int allocatedBlockSize = 0; $/;"	v
+allocatedTable	PortitionAllocation.c	/^BlockList allocatedTable; $/;"	v
+cursor	PortitionAllocation.c	/^BlockPointer cursor; $/;"	v
+cursorPrev	PortitionAllocation.c	/^BlockPointer cursorPrev; $/;"	v
+displayAllocatedTable	PortitionAllocation.c	/^displayAllocatedTable() {$/;"	f
+displayEmptyTable	PortitionAllocation.c	/^displayEmptyTable() {$/;"	f
+emptyBlockSize	PortitionAllocation.c	/^int emptyBlockSize = 1; $/;"	v
+emptyTable	PortitionAllocation.c	/^BlockList emptyTable; $/;"	v
+ffMalloc	PortitionAllocation.c	/^ffMalloc(int size) {$/;"	f
+globalIndex	PortitionAllocation.c	/^int globalIndex = 0; $/;"	v
+initTables	PortitionAllocation.c	/^initTables() {$/;"	f
+main	PortitionAllocation.c	/^main(int argc, $/;"	f
+mergeEmptyTable	PortitionAllocation.c	/^mergeEmptyTable() {$/;"	f
+myFree	PortitionAllocation.c	/^myFree(int id) {$/;"	f
+next	PortitionAllocation.c	/^  struct _Block *next; $/;"	m	struct:_Block	typeref:struct:_Block::_Block	file:
+nfCursor	PortitionAllocation.c	/^BlockPointer nfCursor; $/;"	v
+nfMalloc	PortitionAllocation.c	/^nfMalloc(int size) {$/;"	f
+num	PortitionAllocation.c	/^  int num; $/;"	m	struct:_Block	file:
+prev	PortitionAllocation.c	/^  struct _Block *prev; $/;"	m	struct:_Block	typeref:struct:_Block::_Block	file:
+printCmds	PortitionAllocation.c	/^printCmds() {$/;"	f
+printHorizontalBar	PortitionAllocation.c	/^printHorizontalBar(int type) {$/;"	f
+size	PortitionAllocation.c	/^  int size; $/;"	m	struct:_Block	file:
+sortTable	PortitionAllocation.c	/^sortTable(BlockList list) {$/;"	f
+start	PortitionAllocation.c	/^  int start; $/;"	m	struct:_Block	file:
